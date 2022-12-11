@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/Swagatika-dalai/jenkinsdemo.git'
+            git 'https://github.com/Swagatika-dalai/jenkinsdemo/tree/master/nodejs-demo-master'
             }
         }
 
